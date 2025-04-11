@@ -11,8 +11,8 @@ function App(){
   return(
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/country/:name" element={<CountryDetail />} />
+                <Route path="/Countries-API/" element={<Home />} />
+                <Route path="Countries-API/country/:name" element={<CountryDetail />} />
             </Routes>
         </Router>
   );
