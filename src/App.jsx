@@ -9,12 +9,9 @@ import Home from "../pages/Home";
 
 function App(){
   return(
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/country/:name" element={<CountryDetail />} />
-            </Routes>
-        </Router>
+       
+           <Home />
+       
   );
 };
 
